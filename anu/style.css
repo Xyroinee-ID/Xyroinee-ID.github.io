@@ -1,0 +1,130 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+body {
+  background-color: #121212;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+header {
+  background-color: #1F1F1F;
+  width: 100%;
+  padding: 7px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  top: 0;
+  position: sticky;
+  justify-content: space-between;
+  z-index: 2;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+span {
+  font-weight: bold;
+}
+.icon-message {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.icon-message-flex {
+  display: flex;
+}
+.icon-message .message-card {
+  background-color: #7667febb;
+  width: 90%;
+  height: auto;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.icon-message .message-card .message-card2 {
+  background-color: #1F1F1F;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+
+.icon-info {
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  right: 0;
+}
+.icon-info-flex {
+  display: flex;
+}
+.icon-info .info-card {
+  background-color: #7667febb;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  padding: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.icon-info .info-card .info-card2 {
+  width: 100%;
+  background-color: #1F1F1F;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: ;
+}
+.card {
+  background-color: #1F1F1F;
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 5;
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card2 {
+  background-color: #121212;
+  width: 95%;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 5;
+  border-radius: 5px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  background-color: #4E97FD;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 4px;
+}
